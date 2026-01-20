@@ -1,0 +1,418 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    overflow: auto;
+    -webkit-transform: scaleY(0.01) scaleX(0);
+    -ms-transform: scaleY(0.01) scaleX(0);
+    transform: scaleY(0.01) scaleX(0);
+    -webkit-animation: unfoldIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: unfoldIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.modal.out {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: unfoldOut 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: unfoldOut 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+@-webkit-keyframes unfoldIn {
+    0% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+}
+@keyframes unfoldIn {
+    0% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+}
+@-webkit-keyframes unfoldOut {
+    0% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+}
+@keyframes unfoldOut {
+    0% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+}
+.modal-content {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-animation: zoomIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: zoomIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes zoomIn {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.close{
+    position: absolute;
+    top: 48px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    z-index: 99;
+}
+.close:before,
+.close:after{
+    content: "";
+    position: absolute;
+    background-color: #8C94C0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.close:before{
+    width: 100%;
+    height: 2px;
+}
+.close:after{
+    width: 2px;
+    height: 100%;
+}
+
+.modal-registration{
+    max-width: 1006px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 60px;
+    position: relative;
+}
+
+.modal__your-mark{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.modal__your-mark p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555B67;
+}
+.modal__your-mark ul{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.modal__your-mark ul li{
+    margin-right: 3px;
+    display: flex;
+    cursor: pointer;
+}
+.modal__your-mark ul li img{
+    width: 20px;
+}
+.modal__form{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.modal__inp{
+    max-width: 330px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.modal__inp + .modal__inp{
+    margin-left: 15px;
+    max-width: 540px;
+
+}
+.modal__inp label{
+    display: flex;
+    width: 100%;
+}
+.modal__inp label input{
+    width: 100%;
+    height: 62px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555B67;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #E0E0E9;
+}
+.modal__inp label input::placeholder{
+    color: #959EAD;
+}
+.modal__inp span, .modal__textarea span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555B67;
+    display: block;
+    margin-bottom: 10px;
+}
+.modal__textarea{
+    max-width: 100%;
+    width: 100%;
+}
+.modal__textarea label{
+    display: flex;
+    width: 100%;
+}
+.modal__textarea label textarea{
+    width: 100%;
+    height: 154px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555B67;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border: unset;
+    border-radius: 6px;
+    font-family: 'Exo 2';
+    border: 1px solid #E0E0E9;
+}
+.modal__textarea label textarea::placeholder{
+    color: #959EAD;
+    font-family: 'Exo 2';
+}
+.modal__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.modal__btn .button{
+    max-width: 314px;
+    width: 100%;
+}
+.modal__btn .contact__check {
+    max-width: 370px;
+}
+.modal__btn .checkmark {
+    top: -2px;
+}
+.modal__btn .button-liners{
+    max-width: 314px;
+    width: 100%;
+}
+.added-favorites-suc>span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #64687A;
+    display: block;
+    margin-top: 20px;
+}
+#modal2 .added-favorites-suc>span{
+    margin: 30px 0;
+}
+.modal__smile{
+    display: flex;
+    align-items: center;
+}
+.modal__smile img{
+    margin-right: 10px;
+}
+.modal__smile strong{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #213353;
+}
+.continue__accept{
+    margin-top: 20px;
+    padding: 18px 40px;
+    width: 100%;
+    border: 2px solid #FF5C5C;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.continue__accept>img{
+    margin-right: 10px;
+}
+.continue__accept p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #1E2632;
+}
+.continue__accept a{
+    display: flex;
+    margin-left: 20px;
+}
+.revise-stars-scr svg{
+    width: 27px;
+    height: 27px;
+}
+.revise-stars-scr svg path {
+    stroke: none;
+    fill: #E0E0E9;
+}
+.stars-acts svg path {
+    fill: #519FE7;
+}
+.for-valid-suc{
+    margin: 40px auto 0;
+    max-width: 500px;
+    width: 100%;
+}
+.shortly-will__end{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.shortly-will__end .button-liners{
+    max-width: 314px;
+    width: 100%;
+}
+@media (max-width: 991px){
+    .modal-registration {
+        max-width: 740px;
+        padding: 35px 20px;
+    }
+
+    .modal__inp + .modal__inp {
+        max-width: 420px;
+    }
+}
+@media (max-width: 760px){
+    .modal__inp {
+        max-width: 100%;
+    }
+    .modal__inp + .modal__inp {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .close {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+    .modal__smile {
+        margin-left: 20px;
+    }
+    .modal__btn .contact__check {
+        max-width: 280px;
+    }
+    .modal__inp label input {
+        padding: 10px 15px;
+    }
+    .modal__textarea label textarea {
+        height: 150px;
+        padding: 15px 15px;
+    }
+
+}
+@media (max-width: 570px){
+    .modal__btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .continue__accept {
+        padding: 14px 20px;
+        position: relative;
+    }
+    .continue__accept a {
+        margin-left: 0;
+        position: absolute;
+        right: 6px;
+        top: 6px;
+    }
+    .continue__accept p {
+        max-width: 200px;
+    }
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .modal__smile {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .modal-registration {
+        padding: 25px 20px;
+    }
+    .modal__inp label input {
+        height: 50px;
+    }
+    #modal .modal-content, #modal3 .modal-content {
+        height: auto;
+    }
+}

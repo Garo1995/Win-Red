@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .modal-reg{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .modal-reg .open_modal {
+        padding: 10px 20px;
+        background: #FF1C2D;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+</style>
+<body>
+<header></header>
+<div class="modal-reg">
+    <button data-val="modal" class="open_modal">Опубликовать</button>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-registration">
+                <div class="close"></div>
+                <div class="added-favorites-suc">
+                    <h2>Написать отзыв</h2>
+                    <div class="modal__your-mark">
+                        <p>Ваша оценка:</p>
+                        <div class="first-leave-rev-star P-modal-stars">
+                            <ul>
+                                <li class="revise-stars-scr stars-acts" data-star-icon="1" onclick="starsModal.changeStar(0)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <g clip-path="url(#clip0_13_940)">
+                                            <path d="M15.1815 6.05077L15.1816 6.05079C15.3207 6.06337 15.4389 6.15736 15.4825 6.29143C15.5262 6.42644 15.4857 6.57228 15.3803 6.66482C15.3803 6.66486 15.3803 6.66489 15.3802 6.66493L11.8889 9.72627L11.6651 9.92257L11.731 10.2129L12.7603 14.7464C12.7603 14.7465 12.7603 14.7465 12.7604 14.7466C12.7917 14.8857 12.7378 15.0271 12.6244 15.1091L12.624 15.1094C12.5101 15.1919 12.3591 15.1985 12.2385 15.1266C12.2385 15.1265 12.2384 15.1265 12.2384 15.1265L8.25653 12.7452L7.99992 12.5917L7.74331 12.7451L3.76057 15.1265L3.76043 15.1266C3.70479 15.1599 3.643 15.1763 3.58112 15.1763C3.50872 15.1763 3.43746 15.1542 3.37637 15.1098L3.37537 15.1091C3.26202 15.0271 3.20806 14.8857 3.23944 14.7466C3.23945 14.7465 3.23946 14.7465 3.23947 14.7464L4.26879 10.2129L4.33471 9.92257L4.11085 9.72627L0.619493 6.66485C0.619481 6.66484 0.619469 6.66483 0.619457 6.66482C0.514136 6.57243 0.47369 6.42613 0.517074 6.29198C0.561308 6.15768 0.679639 6.06373 0.818637 6.05074C0.818772 6.05073 0.818907 6.05072 0.819041 6.05071L5.43776 5.63146L5.73509 5.60447L5.85237 5.3299L7.67772 1.05639L7.67782 1.05615C7.73313 0.92647 7.8589 0.843384 7.9999 0.843384C8.14047 0.843384 8.26673 0.926144 8.323 1.05683C8.32306 1.05696 8.32311 1.05709 8.32317 1.05721L10.1482 5.3299L10.2654 5.60446L10.5628 5.63146L15.1815 6.05077Z" stroke="#171717"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_13_940">
+                                                <rect width="16" height="16" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </li>
+                                <li class="revise-stars-scr stars-acts" data-star-icon="2" onclick="starsModal.changeStar(1)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <g clip-path="url(#clip0_13_940)">
+                                            <path d="M15.1815 6.05077L15.1816 6.05079C15.3207 6.06337 15.4389 6.15736 15.4825 6.29143C15.5262 6.42644 15.4857 6.57228 15.3803 6.66482C15.3803 6.66486 15.3803 6.66489 15.3802 6.66493L11.8889 9.72627L11.6651 9.92257L11.731 10.2129L12.7603 14.7464C12.7603 14.7465 12.7603 14.7465 12.7604 14.7466C12.7917 14.8857 12.7378 15.0271 12.6244 15.1091L12.624 15.1094C12.5101 15.1919 12.3591 15.1985 12.2385 15.1266C12.2385 15.1265 12.2384 15.1265 12.2384 15.1265L8.25653 12.7452L7.99992 12.5917L7.74331 12.7451L3.76057 15.1265L3.76043 15.1266C3.70479 15.1599 3.643 15.1763 3.58112 15.1763C3.50872 15.1763 3.43746 15.1542 3.37637 15.1098L3.37537 15.1091C3.26202 15.0271 3.20806 14.8857 3.23944 14.7466C3.23945 14.7465 3.23946 14.7465 3.23947 14.7464L4.26879 10.2129L4.33471 9.92257L4.11085 9.72627L0.619493 6.66485C0.619481 6.66484 0.619469 6.66483 0.619457 6.66482C0.514136 6.57243 0.47369 6.42613 0.517074 6.29198C0.561308 6.15768 0.679639 6.06373 0.818637 6.05074C0.818772 6.05073 0.818907 6.05072 0.819041 6.05071L5.43776 5.63146L5.73509 5.60447L5.85237 5.3299L7.67772 1.05639L7.67782 1.05615C7.73313 0.92647 7.8589 0.843384 7.9999 0.843384C8.14047 0.843384 8.26673 0.926144 8.323 1.05683C8.32306 1.05696 8.32311 1.05709 8.32317 1.05721L10.1482 5.3299L10.2654 5.60446L10.5628 5.63146L15.1815 6.05077Z" stroke="#171717"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_13_940">
+                                                <rect width="16" height="16" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </li>
+                                <li class="revise-stars-scr stars-acts" data-star-icon="3" onclick="starsModal.changeStar(2)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <g clip-path="url(#clip0_13_940)">
+                                            <path d="M15.1815 6.05077L15.1816 6.05079C15.3207 6.06337 15.4389 6.15736 15.4825 6.29143C15.5262 6.42644 15.4857 6.57228 15.3803 6.66482C15.3803 6.66486 15.3803 6.66489 15.3802 6.66493L11.8889 9.72627L11.6651 9.92257L11.731 10.2129L12.7603 14.7464C12.7603 14.7465 12.7603 14.7465 12.7604 14.7466C12.7917 14.8857 12.7378 15.0271 12.6244 15.1091L12.624 15.1094C12.5101 15.1919 12.3591 15.1985 12.2385 15.1266C12.2385 15.1265 12.2384 15.1265 12.2384 15.1265L8.25653 12.7452L7.99992 12.5917L7.74331 12.7451L3.76057 15.1265L3.76043 15.1266C3.70479 15.1599 3.643 15.1763 3.58112 15.1763C3.50872 15.1763 3.43746 15.1542 3.37637 15.1098L3.37537 15.1091C3.26202 15.0271 3.20806 14.8857 3.23944 14.7466C3.23945 14.7465 3.23946 14.7465 3.23947 14.7464L4.26879 10.2129L4.33471 9.92257L4.11085 9.72627L0.619493 6.66485C0.619481 6.66484 0.619469 6.66483 0.619457 6.66482C0.514136 6.57243 0.47369 6.42613 0.517074 6.29198C0.561308 6.15768 0.679639 6.06373 0.818637 6.05074C0.818772 6.05073 0.818907 6.05072 0.819041 6.05071L5.43776 5.63146L5.73509 5.60447L5.85237 5.3299L7.67772 1.05639L7.67782 1.05615C7.73313 0.92647 7.8589 0.843384 7.9999 0.843384C8.14047 0.843384 8.26673 0.926144 8.323 1.05683C8.32306 1.05696 8.32311 1.05709 8.32317 1.05721L10.1482 5.3299L10.2654 5.60446L10.5628 5.63146L15.1815 6.05077Z" stroke="#171717"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_13_940">
+                                                <rect width="16" height="16" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </li>
+                                <li class="revise-stars-scr stars-acts" data-star-icon="4" onclick="starsModal.changeStar(3)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <g clip-path="url(#clip0_13_940)">
+                                            <path d="M15.1815 6.05077L15.1816 6.05079C15.3207 6.06337 15.4389 6.15736 15.4825 6.29143C15.5262 6.42644 15.4857 6.57228 15.3803 6.66482C15.3803 6.66486 15.3803 6.66489 15.3802 6.66493L11.8889 9.72627L11.6651 9.92257L11.731 10.2129L12.7603 14.7464C12.7603 14.7465 12.7603 14.7465 12.7604 14.7466C12.7917 14.8857 12.7378 15.0271 12.6244 15.1091L12.624 15.1094C12.5101 15.1919 12.3591 15.1985 12.2385 15.1266C12.2385 15.1265 12.2384 15.1265 12.2384 15.1265L8.25653 12.7452L7.99992 12.5917L7.74331 12.7451L3.76057 15.1265L3.76043 15.1266C3.70479 15.1599 3.643 15.1763 3.58112 15.1763C3.50872 15.1763 3.43746 15.1542 3.37637 15.1098L3.37537 15.1091C3.26202 15.0271 3.20806 14.8857 3.23944 14.7466C3.23945 14.7465 3.23946 14.7465 3.23947 14.7464L4.26879 10.2129L4.33471 9.92257L4.11085 9.72627L0.619493 6.66485C0.619481 6.66484 0.619469 6.66483 0.619457 6.66482C0.514136 6.57243 0.47369 6.42613 0.517074 6.29198C0.561308 6.15768 0.679639 6.06373 0.818637 6.05074C0.818772 6.05073 0.818907 6.05072 0.819041 6.05071L5.43776 5.63146L5.73509 5.60447L5.85237 5.3299L7.67772 1.05639L7.67782 1.05615C7.73313 0.92647 7.8589 0.843384 7.9999 0.843384C8.14047 0.843384 8.26673 0.926144 8.323 1.05683C8.32306 1.05696 8.32311 1.05709 8.32317 1.05721L10.1482 5.3299L10.2654 5.60446L10.5628 5.63146L15.1815 6.05077Z" stroke="#171717"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_13_940">
+                                                <rect width="16" height="16" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </li>
+                                <li class="revise-stars-scr stars-acts" data-star-icon="5" onclick="starsModal.changeStar(4)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <g clip-path="url(#clip0_13_940)">
+                                            <path d="M15.1815 6.05077L15.1816 6.05079C15.3207 6.06337 15.4389 6.15736 15.4825 6.29143C15.5262 6.42644 15.4857 6.57228 15.3803 6.66482C15.3803 6.66486 15.3803 6.66489 15.3802 6.66493L11.8889 9.72627L11.6651 9.92257L11.731 10.2129L12.7603 14.7464C12.7603 14.7465 12.7603 14.7465 12.7604 14.7466C12.7917 14.8857 12.7378 15.0271 12.6244 15.1091L12.624 15.1094C12.5101 15.1919 12.3591 15.1985 12.2385 15.1266C12.2385 15.1265 12.2384 15.1265 12.2384 15.1265L8.25653 12.7452L7.99992 12.5917L7.74331 12.7451L3.76057 15.1265L3.76043 15.1266C3.70479 15.1599 3.643 15.1763 3.58112 15.1763C3.50872 15.1763 3.43746 15.1542 3.37637 15.1098L3.37537 15.1091C3.26202 15.0271 3.20806 14.8857 3.23944 14.7466C3.23945 14.7465 3.23946 14.7465 3.23947 14.7464L4.26879 10.2129L4.33471 9.92257L4.11085 9.72627L0.619493 6.66485C0.619481 6.66484 0.619469 6.66483 0.619457 6.66482C0.514136 6.57243 0.47369 6.42613 0.517074 6.29198C0.561308 6.15768 0.679639 6.06373 0.818637 6.05074C0.818772 6.05073 0.818907 6.05072 0.819041 6.05071L5.43776 5.63146L5.73509 5.60447L5.85237 5.3299L7.67772 1.05639L7.67782 1.05615C7.73313 0.92647 7.8589 0.843384 7.9999 0.843384C8.14047 0.843384 8.26673 0.926144 8.323 1.05683C8.32306 1.05696 8.32311 1.05709 8.32317 1.05721L10.1482 5.3299L10.2654 5.60446L10.5628 5.63146L15.1815 6.05077Z" stroke="#171717"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_13_940">
+                                                <rect width="16" height="16" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="modal__form">
+                            <div class="modal__inp">
+                                <span>Имя</span>
+                                <label>
+                                    <input type="text" placeholder="Ваше имя">
+                                </label>
+                            </div>
+                            <div class="modal__inp">
+                                <span>Тема отзыва</span>
+                                <label>
+                                    <input type="text" placeholder="Телефону"
+                                           pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}" class="phone">
+                                </label>
+                            </div>
+                            <div class="modal__textarea">
+                                <span>Ваш отзыв</span>
+                                <label>
+                                    <textarea placeholder="Текст отзыва"></textarea>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal__btn">
+                            <div class="contact__check">
+                                <label class="checkcontainer">Я принимаю политику конфиденциальности
+                                    <input type="checkbox" checked>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <button class="button">Опубликовать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button data-val="modal2" class="open_modal">Вернуться на сайт</button>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <div class="modal-registration">
+                <div class="close"></div>
+                <div class="added-favorites-suc">
+                    <h2>Спасибо за Ваш отзыв</h2>
+                    <span>
+                        Он будет опубликован на сайте после проверки нашим модератором
+                    </span>
+                    <div class="modal__btn">
+                        <div class="modal__smile">
+                            <img src="assets/img/smil1.svg" alt="">
+                            <strong>Хорошего дня! </strong>
+                        </div>
+                        <button class="button-liners">Вернуться на сайт</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button data-val="modal3" class="open_modal">Перезвоните мне</button>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <div class="modal-registration">
+                <div class="close"></div>
+                <div class="added-favorites-suc">
+                    <h2>Оставьте Ваши контакты</h2>
+                    <span>И мы свяжемся с Вами в ближайшее время</span>
+                    <form>
+                        <div class="modal__form">
+                            <div class="modal__inp">
+                                <span>Имя</span>
+                                <label>
+                                    <input type="text" placeholder="Ваше имя">
+                                </label>
+                            </div>
+                            <div class="modal__inp">
+                                <span>Ваш телефон</span>
+                                <label>
+                                    <input type="text" placeholder="Телефону" pattern="\+7 \(\d{3}\)-\d{3}-\d{2}-\d{2}" class="phone">
+                                </label>
+                            </div>
+                            <div class="modal__textarea">
+                                <span>Ваш вопрос</span>
+                                <label>
+                                    <textarea placeholder="Текст"></textarea>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal__btn">
+                            <div class="contact__check">
+                                <label class="checkcontainer">Я принимаю политику конфиденциальности
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <button class="button">Перезвоните мне</button>
+                        </div>
+                    </form>
+                    <div class="continue__accept">
+                        <img src="assets/img/cle-Info.svg" alt="icon">
+                        <p>
+                            Чтобы продолжить - примите соглашение на политику конфиденциальности
+                        </p>
+                        <a href="#">
+                            <img src="assets/img/close11.png" alt="icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button data-val="modal4" class="open_modal">Вернуться на сайт</button>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <div class="modal-registration">
+                <div class="close"></div>
+                <div class="added-favorites-suc">
+                    <h2>Спасибо за Ваше сообщение</h2>
+                    <span>
+                        Мы свяжемся с Вами в ближайшее время
+                    </span>
+                    <div class="shortly-will__end">
+                        <button class="button-liners">Вернуться на сайт</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button data-val="modal5" class="open_modal">Input</button>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <div class="modal-registration">
+                <div class="close"></div>
+                <div class="for-valid-suc">
+                    <div class="insured__sear true__inp">
+                        <label>
+                            <input type="text" placeholder="Адрес страхуемой квартиры">
+                        </label>
+                    </div>
+                    <div class="insured__sear false__inp">
+                        <label>
+                            <input type="text" placeholder="Адрес страхуемой квартиры">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/jquery.formstyler.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/yearpicker.js"></script>
+<script src="assets/js/jquery.mask.js"></script>
+<script src="assets/js/wNumb.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/data-picers.js"></script>
+<script src="assets/js/script.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('select').styler();
+    })
+</script>
+</body>
+</html>

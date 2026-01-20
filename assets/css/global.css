@@ -1,0 +1,1256 @@
+.insured__sear p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.autofill__liner> form{
+    width: 100%;
+}
+.onload__form{
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    position: relative;
+
+}
+.onload__form label{
+    position: relative;
+    transition: 0.3s;
+}
+.onload__form label:after {
+    content: "";
+    position: absolute;
+    top: 19px;
+    right: 17px;
+    border-top: 2px solid #BBC4D3;
+    border-right: 2px solid #BBC4D3;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+    transition: 0.3s;
+}
+.open__droups__act label:after {
+    top: 24px;
+    transform: rotate(-45deg);
+    transition: 0.3s;
+
+}
+.droups__form{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    overflow-y: auto;
+    background: #ffffff;
+    z-index: 999;
+    border: 1px solid rgba(0,0,0,0.1);
+    display: none;
+}
+.droups__form::-webkit-scrollbar {
+    width: 10px;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    background: #F3F4F6;
+    border-radius: 0;
+}
+.droups__form::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background: #FF8C21;
+    border-radius: 0;
+}
+.droups__form ul{
+    height: 250px;
+}
+.droups__form ul li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1E2632;
+}
+.droups__form ul li:hover {
+    background: #F7F8FD;
+}
+.show-catalog-sort-act .droups__form{
+    display: block;
+}
+
+.faq-pages .questions__main{
+    padding-top: 35px;
+}
+
+.on__fl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.actions__policy{
+    display: flex;
+    align-items: center;
+}
+.in__data__picker{
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+}
+.in__data__picker{
+    position: relative;
+}
+.in__data__picker label:before{
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    background-image: url("../img/calandar.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    z-index: 99;
+}
+.actions__policy .onload__form {
+    margin-bottom: 0;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 10px;
+}
+.form__liner {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #E9ECFB;
+    max-width: 100%;
+}
+.registration-owner{
+    max-width: 810px;
+    width: 100%;
+    margin-top: 30px;
+}
+.registration-owner .insured__sear{
+    max-width: 100%;
+}
+.registration-owner button{
+    margin: 0 auto;
+}
+.go__back{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #191C2E;
+    padding-left: 15px;
+    position: relative;
+}
+.go__back:before{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    border-top: 3px solid #BBC4D3;
+    border-left: 3px solid #BBC4D3;
+    width: 7px;
+    height: 7px;
+    transform: rotate(-45deg);
+    transition: 0.3s;
+}
+.keep-things{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    padding: 20px;
+    background: rgba(125,141,147,.06);
+    border-radius: 4px;
+}
+
+.with__restrictions{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D8DBE1;
+}
+
+.check__restrictions .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: unset;
+    border-radius: 5px;
+    border: 1px solid #D8DBE1;
+}
+.check__restrictions .checkcontainer .checkmark:after {
+    display: none;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 9px;
+}
+.check__restrictions .checkcontainer input:checked ~ .checkmark{
+    border: 1px solid #47518E
+}
+.check__restrictions .checkcontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+.with__restrictions .set-insured__info {
+    margin-left: 15px;
+}
+.restrictions__driver{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.restrictions__driver h3{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 45px;
+    color: #3A4270;
+}
+.driver__fields{
+    display: flex;
+    align-items: center;
+}
+.driver__fields a{
+    display: flex;
+    align-items: center;
+    padding: 4px 7px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E2632;
+    background: rgba(125,141,147,.06);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.driver__fields a:hover{
+    background: #FF8C21;
+    color: #ffffff;
+}
+.driver__fields a svg{
+    margin-right: 6px;
+    transition: 0.3s;
+
+}
+.driver__fields a svg path{
+    transition: 0.3s;
+
+}
+.driver__fields a:hover svg path{
+    fill: #ffffff;
+}
+.osago__form__flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.osago__form__flex .insured__sear{
+    width: 49%;
+    margin-top: 30px;
+    max-width: initial;
+
+}
+
+.no__surname{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.changed__license{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.changed__license .contact__check {
+    max-width: 315px;
+}
+
+.start-date-internship{
+    display: flex;
+    align-items: center;
+}
+.start-date-internship a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 20px;
+    background: unset;
+    border: 1px solid #D8DBE1;
+    transition: 0.3s;
+    font-size: 14px;
+    color: #333333;
+}
+.start-date-internship a:hover{
+    border: 1px solid #FF8C21;
+}
+.add__driver{
+    margin-top: 30px;
+}
+.add__driver .button span{
+    font-size: 28px;
+    font-weight: 100;
+    display: block;
+    margin-right: 6px;
+}
+.agree__transfer{
+
+    margin-top: 25px;
+}
+.agree__transfer__btn{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agree__transfer .contact__check {
+    max-width: 350px;
+}
+
+.year_inp{
+    display: none;
+}
+.year_inp__act{
+    display: block;
+}
+.data_inp{
+    display: block;
+}
+.data__none{
+    display: none;
+}
+.osago__form__owner .insured__sear {
+    width: 29%;
+}
+.osago__form__owner .insured__sear:nth-child(3), .osago__form__owner .insured__sear:nth-child(6){
+    width: 38%;
+}
+.automobile__kuzov{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.automobile__number{
+    width: 48%;
+}
+.automobile__number p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E2632;
+    margin-bottom: 8px;
+}
+.automobile__btn{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #FF8C21;
+
+}
+.automobile__btn button{
+    width: 33.333333%;
+    height: 49px;
+    background: rgba(125,141,147,.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    transition: 0.3s;
+}
+.automobile__btn button:hover{
+    border-left: 1px solid #FF8C21;
+    border-right: 1px solid #FF8C21;
+    background: rgba(255,140,33,0.3);
+}
+.automobile__btn .automobile__btn__active{
+    background: rgba(255,140,33,0.3);
+    border-left: 1px solid #FF8C21;
+    border-right: 1px solid #FF8C21;
+}
+.automobile__kuzov .insured__sear{
+    width: 48%;
+}
+
+.automobile__btn button:first-child{
+    border-left: unset;
+}
+.automobile__btn button:last-child{
+    border-right: unset;
+}
+.no__surname .check__restrictions .checkcontainer .checkmark:after {
+    left: 5px;
+    top: 1px;
+}
+.osag__calculation{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+    background: #ffffff;
+    margin-top: 25px;
+}
+.osag__calculation_info strong{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #47518E;
+    display: block;
+}
+.osag__calculation_info p{
+    margin-top: 8px;
+}
+.estimation__var{
+    margin: 25px auto 0;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+}
+.os-estimation{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.os-estimation strong{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #47518E;
+    display: block;
+    margin-right: 6px;
+}
+.set-insured__info{
+    display: flex;
+    align-items: center;
+}
+.set-insured__info>span{
+    color: #FFA819;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.company__ready{
+    margin-top: 35px;
+}
+.company__ready__icon{
+    width: 60px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #FF8C21;
+    margin: 0 auto;
+}
+.company__ready h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #47518E;
+    max-width: 450px;
+    margin: 25px auto;
+    text-align: center;
+}
+.company__recommend{
+    max-width: 400px;
+    width: 100%;
+    margin: 30px auto 0;
+}
+.company__recommend>span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1E2632;
+}
+
+.company__recommend .contact__check {
+    max-width: 350px;
+    margin-top: 15px;
+}
+.company__recommend button{
+    margin: 35px auto 0;
+}
+.company__recommend  .contact__check .checkcontainer {
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E2632;
+}
+.company__recommend .contact__check .checkcontainer  .checkmark {
+    background: #2BB446;
+    border: 1px solid #2BB446;
+}
+.company__recommend .check__restrictions .checkcontainer  .checkmark:after {
+    display: block;
+}
+.start-date-internship .set-insured__drop {
+    left: -153px;
+    width: 300px;
+    z-index: 999;
+}
+.start-date-internship .set-insured__drop p{
+    font-weight: 500;
+    font-size: 14px!important;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.page-not__found{
+    margin: 40px 0 90px;
+}
+.page-not-main{
+    display: flex;
+    align-items: center;
+}
+.does-exist-tit{
+    max-width: 555px;
+    width: 100%;
+    margin-left: 50px;
+}
+.does-exist-tit strong{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #616F89;
+    margin-top: 40px;
+    display: block;
+}
+.does-exist-tit p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555B67;
+    margin-top: 15px;
+}
+.does-exist-tit a{
+    margin-top: 30px;
+    color: #FF1C2D;
+    border: 1px solid #FF1C2D;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #FFFFFF;
+    font-weight: 700;
+}
+.does-exist-tit a:hover{
+    background: #FF1C2D;
+    border: 1px solid #FF1C2D;
+    color: #FFFFFF;
+
+}
+.does-exist-photo{
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+}
+.reviews__flex{
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.reviews__first{
+    padding: 30px;
+    max-width: 750px;
+    width: 100%;
+    border-radius: 15px;
+    background-image: url("../img/fon-revievs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+.reviews__first .button{
+    margin-top: 100px;
+}
+.page-not__found .reviews__first{
+    margin-top: 0;
+}
+.reviews__name{
+    max-width: 320px;
+    width: 100%;
+}
+.reviews__name strong{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #213353;
+}
+.reviews__name p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #616F89;
+    margin-top: 10px;
+}
+
+.reviews__cnt{
+    max-width: 360px;
+    width: 100%;
+    margin-left: 30px;
+}
+.reviews__go{
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #F8F8FC;
+    border-radius: 25px;
+    height: 360px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.reviews__go .button{
+    margin-top: 49px;
+    max-width: 147px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.reviews__go + .reviews__go .button {
+    margin-bottom: 51px;
+}
+.reviews-go__photo{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 44px;
+    max-width: 282px;
+}
+.reviews__go + .reviews__go .reviews-go__photo{
+    top: auto;
+    bottom: 20px;
+}
+.flex-rev__tit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-rev__tit .button-liners{
+    max-width: 360px;
+    width: 100%;
+}
+.reviews__messages{
+    max-width: 750px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 6px rgba(49, 60, 70, 0.1);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.user__name{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    background: #F7F8FC;
+    border-radius: 15px 15px 0px 0px;
+}
+.user__name span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #213353;
+    display: block;
+    margin-left: 10px;
+}
+.user__name ul{
+    display: flex;
+    align-items: center;
+}
+.user__name ul li{
+    margin-left: 3px;
+    display: flex;
+}
+.user__name ul li img{
+    width: 16px;
+}
+.reviews__reg{
+    padding: 15px 30px 30px;
+}
+.reviews__reg strong{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213353;
+}
+.reviews__text{
+    margin-top: 15px;
+    padding: 15px 30px;
+    background: #F7F8FC;
+    border-radius: 6px;
+}
+.reviews__text p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+.expert__garants{
+    margin-top: 15px;
+    border: 1px solid #D6DAF1;
+    border-radius: 6px;
+    padding: 20px;
+}
+.expert__log{
+    display: flex;
+    align-items: center;
+}
+.expert__log img{
+    margin-right: 10px;
+}
+.expert__log span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #213353;
+}
+.expert__text{
+    margin-top: 15px;
+}
+.expert__text p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #64687A;
+}
+.reviews__flex .pagination__pages {
+    margin-top: 50px;
+}
+
+/*==============-pages-blog-================*/
+
+.blog__info {
+    margin: 60px 0 110px;
+}
+.blog__main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog__cnt{
+    display: flex;
+    align-items: center;
+}
+.blog__drop{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.blog__drop>p{
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #959EAD;
+}
+.catalog-sort-name{
+    position: relative;
+}
+.catalog-sort-name strong, .show-sort-name strong, .categor-name strong{
+    position: relative;
+    cursor: pointer;
+    padding: 6px 28px 6px 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #519FE7;
+    border-bottom: 1px solid #E0E0E9;
+}
+.catalog-sort-name strong:after, .show-sort-name strong:after, .categor-name strong:after{
+    content: "";
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    border-top: 2px solid #519FE7;
+    border-left: 2px solid #519FE7;
+    width: 5px;
+    height: 5px;
+    transition: 0.3s;
+    transform: rotate(-135deg);
+
+}
+.click-open-leng strong:after{
+    transform: rotate(45deg);
+    top: 12px;
+}
+
+.catalog-sort-drop, .show-sort-drop, .categor-drop{
+    display: none;
+    background: #FFFFFF;
+    width: 100%;
+    position: absolute;
+    z-index: 888;
+    top: 25px;
+    right: 0;
+}
+.catalog-sort-drop li, .show-sort-drop li, .categor-drop li{
+    margin-bottom: 0;
+    border-top: 1px solid #F7F8FD;
+}
+.catalog-sort-drop li:last-child{
+    margin: 0;
+}
+.catalog-sort-drop li a, .show-sort-drop li a, .categor-drop li a{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #959EAD;
+    transition: 0.3s;
+    background: #FFFFFF;
+    padding: 10px 10px;
+}
+.catalog-sort-drop li a:hover, .show-sort-drop li a:hover, .categor-drop li a:hover{
+    color: #616F89;
+}
+.click-open-leng .catalog-sort-drop{
+    display: block;
+}
+.show-sort-name, .categor-name{
+    position: relative;
+}
+.show-catalog-sort-act strong:after{
+    transform: rotate(45deg);
+    top: 15px;
+}
+.show-catalog-sort-act .show-sort-drop{
+    display: block;
+}
+.cat-sort-act strong:after{
+    transform: rotate(45deg);
+    top: 15px;
+}
+.cat-sort-act .categor-drop{
+    display: block;
+}
+.blog__flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px -15px 0;
+}
+.blog__box{
+    width: 33.333333%;
+    padding: 15px;
+}
+.blog__box .benefits__info {
+    margin: 0 auto;
+}
+.pagination__pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.pagination__pages>a{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #959EAD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.pagination__pages>a:hover{
+    background: #519FE7;
+}
+.pagination__pages>a svg{
+    width: 12px;
+}
+.pagination__pages>a svg path{
+    transition: 0.3s;
+    fill: #FFFFFF;
+}
+.pagination__left>  svg{
+    margin-left: 3px;
+}
+.pagination__right>  svg{
+    margin-right: 3px;
+}
+.pagination__left{
+    margin-right: 36px;
+    padding-right: 3px;
+}
+.pagination__right{
+    margin-left: 36px;
+    padding-left: 2px;
+}
+.pagination__pages ul{
+    display: flex;
+    align-items: center;
+}
+.pagination__pages ul li + li{
+    margin-left: 10px;
+}
+.pagination__pages ul li a{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #FFA8AE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFA8AE;
+    transition: 0.3s;
+}
+.pagination__pages ul li a:hover{
+    background: #FF1C2D;
+    color: #FFFFFF;
+    border: 1px solid #FF1C2D;
+}
+.pagination__pages .active-paginat{
+    background: #FF1C2D;
+    color: #FFFFFF;
+    border: 1px solid #FF1C2D;
+}
+.pagination__pages ul li img{
+    margin: 0 15px;
+}
+@media (max-width: 1199px){
+
+    .reviews__name{
+        max-width: 395px;
+    }
+}
+@media (max-width: 1099px){
+    .blog__box {
+        width: 50%;
+    }
+
+    .blog__info {
+        margin: 60px 0 70px;
+    }
+}
+@media (max-width: 991px){
+    .page-not__found {
+        margin: 70px 0;
+    }
+    .reviews__flex {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .reviews__cnt {
+        margin-left: 0;
+        margin-top: 30px;
+        max-width: 812px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .reviews__go {
+        max-width: 360px;
+        width: 100%;
+        height: 320px;
+    }
+    .reviews__go + .reviews__go{
+        margin-left: 15px;
+    }
+    .reviews__name {
+        max-width: 427px;
+    }
+    .blog__main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog__cnt {
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    .blog__drop {
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .blog__info {
+        margin: 50px 0;
+    }
+    .blog__flex {
+        margin: 30px -15px 0;
+    }
+    .start-date-internship .set-insured__drop {
+        left: auto;
+        width: 250px;
+        right: 0;
+    }
+    .reviews__go .button {
+        margin-top: 20px;
+        margin-bottom: 19px;
+    }
+    .does-exist-tit {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 760px){
+    .page-not__found {
+        margin: 30px 0 50px;
+    }
+    .page-not-main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reviews__name {
+        max-width: 385px;
+    }
+    .reviews__name strong {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .reviews__go {
+        padding: 25px;
+    }
+
+    .blog__flex {
+        margin: 30px 0 0;
+    }
+    .blog__box {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .reviews__text {
+        padding: 12px 15px;
+    }
+    .actions__policy {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .actions__policy .onload__form {
+        margin-bottom: 0;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .actions__policy .in__data__picker {
+        max-width: 100%;
+    }
+    .insured__sear p {
+        font-size: 14px;
+    }
+    .keep-things {
+        margin-top: 10px;
+        padding: 15px;
+    }
+    .form__liner {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .restrictions__driver h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .restrictions__driver {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .driver__fields {
+        margin-left: auto;
+    }
+    .osago__form__flex .insured__sear {
+        width: 100%;
+        margin-top: 20px;
+        max-width: initial;
+    }
+   .changed__license  .set-insured__drop {
+        right: 0;
+        left: auto;
+    }
+    .osago__form__owner .insured__sear {
+        width: 100%;
+    }
+    .osago__form__owner .insured__sear:nth-child(3), .osago__form__owner .insured__sear:nth-child(6) {
+        width: 100%;
+    }
+    .automobile__kuzov {
+        margin-top: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .automobile__number {
+        width: 100%;
+        max-width: 360px;
+    }
+    .automobile__kuzov .insured__sear {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .company__ready h3 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 20px auto;
+    }
+    .reviews__go .services__car {
+        margin-left: -25px;
+        padding: 8px 0 8px 25px;
+    }
+
+    .does-exist-tit {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .user__name {
+        padding: 15px 15px;
+    }
+    .reviews__reg {
+        padding: 15px 15px 15px;
+    }
+    .expert__garants {
+        padding: 15px;
+    }
+}
+@media (max-width: 600px){
+    .reviews__cnt {
+        flex-direction: column;
+    }
+    .reviews__go + .reviews__go {
+        margin-left: 0;
+    }
+}
+@media (max-width: 570px){
+
+    .does-exist-tit p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .does-exist-tit a {
+        margin-top: 20px;
+    }
+    .does-exist-tit strong {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .reviews__first {
+        padding: 20px;
+    }
+    .reviews__name strong {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .reviews__go {
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+
+    .reviews__flex {
+        margin-top: 30px;
+    }
+    .pagination__left {
+        margin-right: 15px;
+    }
+    .pagination__right {
+        margin-left: 15px;
+    }
+    .pagination__pages ul li + li {
+        margin-left: 8px;
+    }
+
+    .blog__cnt {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog__drop {
+        margin-right: 0;
+    }
+    .flex-rev__tit{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .flex-rev__tit a{
+        margin-top: 15px;
+    }
+    .reviews__reg strong {
+        font-size: 15px;
+    }
+
+    .user__name{
+        flex-wrap: wrap;
+    }
+    .agree__transfer__btn {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .agree__transfer__btn button{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .osag__calculation_info strong {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .osag__calculation {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .osag__calculation_info p {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    .os-estimation {
+        margin-top: 25px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .os-estimation .set-insured__drop {
+        right: auto;
+        left: auto;
+    }
+    .company__ready h3 {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 20px auto;
+    }
+    .company__recommend .contact__check {
+        max-width: 350px;
+        margin-top: 12px;
+    }
+    .os-estimation>span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .start-date-internship a {
+        width: 50px;
+    }
+    .changed__license .set-insured__drop {
+        z-index: 982;
+    }
+
+    .pagination__left {
+        margin-right: 10px;
+    }
+    .pagination__right {
+        margin-left: 10px;
+    }
+    .blog__info {
+        margin: 40px 0;
+    }
+    .reviews__flex .pagination__pages {
+        margin-top: 30px;
+    }
+    .reviews__first {
+        margin-top: 30px;
+    }
+}

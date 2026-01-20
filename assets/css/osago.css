@@ -1,0 +1,1972 @@
+.bread__pages ul{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+.bread__pages ul li{
+    margin-right: 20px;
+    position: relative;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #959EAD;
+}
+.bread__pages ul li + li{
+    padding-left: 35px;
+}
+.bread__pages ul li + li:before{
+    content: url("../img/arrow-chevron.svg");
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+.bread__pages ul li a{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #519FE7;
+}
+.osago__online{
+    margin: 40px 0 90px;
+}
+.osago__tit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.osago__soc{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+.osago__soc p{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    color: #519FE7;
+}
+.osago__soc ul{
+    display: flex;
+    align-items: center;
+}
+.osago__soc ul li{
+    margin-left: 12px;
+}
+.osago__soc ul li a {
+    display: flex;
+    width: 30px;
+}
+.osago__clearance{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7.5px 20px;
+    margin-top: 40px;
+    background: #F7F8FC;
+    border-bottom: 2px solid #CDD1EA;
+    border-radius: 10px 10px 0px 0px;
+}
+.osago__name{
+    display: flex;
+    align-items: center;
+}
+.osago__name img{
+    margin-right: 10px;
+}
+.osago__name p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #213353;
+}
+.osago__name p span{
+    color: #FF1C2D;
+    margin-right: 3px;
+}
+.osago__link{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.osago__link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+.osago-clear__cl{
+    display: flex;
+    cursor: pointer;
+}
+.osago__close{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.osago__item{
+    margin-top: 20px;
+}
+.how-works__count{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    background: #F8F8FC;
+    box-shadow: 2px 2px 4px rgba(49, 60, 70, 0.1);
+    border-radius: 10px;
+    max-width: 370px;
+    width: 100%;
+    padding: 15px;
+    min-height: 84px;
+
+}
+.mort-works__number{
+    border-right: 1px solid #E0E0E9;
+    padding-right: 20px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mort-works__number span{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FF1C2D;
+}
+.how-works__count strong{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #213353;
+    display: block;
+    margin-left: 20px;
+}
+.works__count_act{
+    background: #FFFFFF;
+    border: 1px solid #EF959C;
+    box-shadow: 2px 2px 4px rgba(49, 60, 70, 0.1);
+}
+.works__count_act strong{
+    color: #FF1C2D;
+}
+.osago__vibor{
+    display: flex;
+    align-items: center;
+}
+.osago__vibor .how-works__info {
+    margin-right: 30px;
+}
+.osago__vibor .how-works__number {
+    width: 60px;
+    height: 60px;
+}
+.osago__vibor .how-works__number span {
+    font-size: 30px;
+    line-height: 41px;
+}
+.osago__vibor .how-works__info strong {
+    font-size: 22px;
+    line-height: 27px;
+}
+.autofill__liner{
+    display: flex;
+    align-items: center;
+}
+.autofill__liner .services__cal__numb label input {
+    width: 200px;
+}
+
+.autofill__car{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.autofill__car p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #64687A;
+    margin-left: 15px;
+}
+.autofill__car p span{
+    color: #FF1C2D;
+    display: block;
+    margin-left: 3px;
+}
+
+.osago__relative{
+    position: relative;
+    z-index: 8;
+    background: #F7F8FC;
+    border-radius: 15px;
+    margin-top: 22px;
+    padding: 35px;
+}
+.causes__linders .causes__main h2{
+    max-width: 100%;
+}
+.causes__cnts>span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    margin-top: 5px;
+    color: #616F89;
+
+}
+.causes__cnts .causes__box {
+    padding: 30px 30px;
+    border-radius: 20px;
+    border: 1px solid #E0E0E9;
+}
+.causes__cnts .causes__box strong {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.benefits-rem__pad .benefits__main {
+    padding-top: 0;
+}
+.number__you{
+    margin-top: 30px;
+}
+.osago__relative .number__you{
+    max-width: 310px;
+}
+.number__you .checkmark {
+    top: -4px;
+}
+.autofil__photo{
+    position: absolute;
+    right: 21px;
+    top: 14px;
+}
+.number__circle{
+    background: #D8DBE1;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insurance__comp_osago .insurance__href{
+    box-shadow: unset;
+    border-left: 1px solid #E0E0E9;
+    border-radius: 0;
+}
+.insurance__comp_osago .swiper-slide-active .insurance__href{
+    border-left: unset;
+}
+.compensation__damage{
+    margin:  90px 0;
+}
+
+
+.compensation__main>p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #555B67;
+    margin-top: 10px;
+}
+.compensation__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.compensation__box{
+    width: 49%;
+    background: #F8F8FC;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 30px;
+    min-height: 245px;
+    justify-content: space-between;
+}
+
+.compensation__name{
+    max-width: 255px;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.compensation__name strong{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #213353;
+}
+.compensation__name strong span{
+    color: #FF1C2D;
+    display: block;
+    margin-left: 5px;
+}
+.compensation__name p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #616F89;
+    margin-top: 10px;
+}
+.compensation__icon{
+    display: flex;
+    align-items: center;
+}
+.insured__apartment{
+    padding: 0 5px 0 0;
+    max-width: 618px;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #CADAF1;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.insured__glav {
+    transition: 0.3s;
+    max-width: 410px;
+    width: 100%;
+    position: relative;
+}
+.insured__glav:after{
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    border-top: 2px solid #BBC4D3;
+    border-left: 2px solid #BBC4D3;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-135deg);
+    transition: 0.3s;
+
+}
+.insured__open .insured__glav:after {
+    border-top: 2px solid #FF8C21;
+    border-left: 2px solid #FF8C21;
+    transform: rotate(-225deg);
+}
+.insured__apartment .button-liners{
+    max-width: 200px;
+    width: 100%;
+    height: 40px;
+    padding: 5px 14px;
+}
+
+.osago__relative .contact__check {
+    max-width: 300px;
+}
+.osago__relative .contact__check {
+    max-width: 300px;
+    width: 100%;
+    margin-left: 18px;
+}
+.osago__relative .checkmark {
+    top: -3px;
+}
+
+.insured__sear {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.insured__sear label{
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+.insured__sear label input{
+    width: 100%;
+    height: 62px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #636C7B;
+    transition: 0.3s;
+    border-top: 1px solid #F7F8FD;
+}
+.insured__sear label input::placeholder{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #636C7B;
+}
+.true__inp label:after{
+    content: "";
+    position: absolute;
+    right: 30px;
+    background-image: url("../img/checkas.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.true__inp label input{
+    border: 1px solid #2BB446;
+    color: #2BB446;
+}
+.true__inp label input::placeholder{
+    color: #2BB446;
+}
+.insured__glav label input {
+    height: 44px;
+    padding: 8px 30px;
+}
+.false__inp label:after{
+    content: "";
+    position: absolute;
+    right: 30px;
+    background-image: url("../img/Close-as.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.false__inp label input{
+    border: 1px solid #FF5C5C;
+    color: #FF5C5C;
+}
+.false__inp label input::placeholder{
+    color: #FF5C5C;
+}
+.show__options .button{
+    max-width: 256px;
+    width: 100%;
+    height: 60px;
+}
+.guarantees{
+    margin: 90px 0;
+    background: #F7F8FC;
+    padding: 40px 0;
+}
+
+.guarantees__flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.guarantees__info{
+    max-width: 262px;
+    width: 100%;
+    margin-top: 40px;
+}
+.guarantees__info strong{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    color: #555B67;
+    margin-top: 14px;
+    text-align: center;
+}
+.guarantees__icon{
+    max-width: 262px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.apartment-annual {
+    margin-top: 10px;
+    border-top: unset;
+    padding-top: 20px;
+}
+.apartment-cnt{
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.apartment-cnt p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.movable-property{
+    display: flex;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #F7F8FD;
+}
+.movable-tit{
+    display: flex;
+    align-items: center;
+}
+.movable-tit span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #64687A;
+}
+.upper-receiver{
+    display: none;
+}
+.noUi-handle-upper{
+    display: none;
+}
+.upper-pressure{
+    display: none;
+}
+.upper-performance{
+    display: none;
+}
+.catalog-change-inputs{
+    display: flex;
+    align-items: center;
+}
+.change-range-box{
+    width: 250px;
+    margin-right: 22px;
+}
+.movable-prices{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.insu__company{
+    padding: 30px 30px 10px;
+    margin-top: 20px;
+    background: #F7F8FD;
+}
+.filter__logo{
+    display: flex;
+    width: 185px;
+}
+
+.insu__comp__name ul{
+    display: flex;
+    align-items: center;
+}
+.insu__comp__name ul li{
+    margin-right: 26px;
+}
+.insu__comp__name ul li:nth-child(1){
+    margin-right: 76px;
+}
+.insu__comp__name ul li a{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #64687A;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.insu__comp__name ul li a img{
+    margin-left: 5px;
+    transition: 0.3s;
+}
+.insu__comp__name ul li:last-child{
+    margin-right: 0;
+    margin-left: 80px;
+}
+
+.must__brick {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.must__brick__text{
+    max-width: 650px;
+    width: 100%;
+
+}
+.must__brick__text p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+}
+.must__brick__text p + p{
+    margin-top: 25px;
+}
+.must__brick__name{
+    display: flex;
+    align-items: flex-start;
+}
+.must__brick__name ul{
+    margin-left: 20px;
+}
+.must__brick__name ul li{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #636C7B;
+    padding-left: 19px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.calc-cost{
+    margin: 90px 0;
+}
+
+.calc-cost__cnt{
+    margin-top: 44px;
+}
+.calc-cost__cnt span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #616F89;
+}
+.calc-cost__cnt>p{
+    max-width: 1140px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.calc-cost__fl, .calc-cost__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.calc-cost__info{
+    max-width: 560px;
+    width: 100%;
+    margin-left: 20px;
+}
+.calc-cost__info strong{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #616F89;
+}
+.calc-cost__info>p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.calc__policy{
+    padding-left: 24px;
+}
+
+.calc__buy{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 32px;
+    margin-top: 20px;
+}
+.calc__buy:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/check2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calc__buy span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #555B67;
+    max-width: 230px;
+    width: 100%;
+    display: block;
+}
+
+.calc-cost__photo{
+    display: flex;
+    max-width: 530px;
+    width: 100%;
+}
+.calc-cost__photo img{
+    border-radius: 20px;
+}
+.calc-cost__price{
+    max-width: 560px;
+    width: 100%;
+    margin-right: 20px;
+}
+.calc-cost__price strong{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #616F89;
+}
+.purcha__rec{
+    margin-top: 50px;
+}
+.purcha__rec strong{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #47518E;
+}
+.purcha__rec p{
+    margin-top: 13px;
+}
+.purcha__car{
+    margin: 30px auto;
+    display: flex;
+    max-width: 558px;
+    width: 100%;
+}
+.calc-cost__block{
+    margin-top: 40px;
+}
+.need-advice{
+    margin-top: 90px;
+    width: 100%;
+    padding: 40px 30px 50px;
+    background: #EEF3F9;
+    border-left: 2px solid #FF1C2D;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 200px;
+}
+.need-advice:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("../img/image150.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 306px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 20px 0 0;
+
+}
+.need-advice .button{
+    max-width: 180px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 20px 25px;
+    font-size: 14px;
+}
+.need-advice__info{
+    margin-left: 25px;
+    max-width: 660px;
+    width: 100%;
+}
+.need-advice__info strong{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #213353;
+}
+.need-advice__info p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    max-width: 590px;
+    width: 100%;
+}
+.rating__ins{
+    padding-top: 10px;
+}
+.rating__ins .see-all__art{
+    margin-top: 30px;
+    margin-left: auto;
+    width: max-content;
+    display: block;
+}
+.rating__tab{
+    margin-top: 44px;
+}
+.rating__scr{
+    width: 100%;
+}
+.rating__name ul{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    height: 63px;
+    background: #F2F2FC;
+    border-bottom: 2px solid #DDDDF5;
+    border-radius: 10px 10px 0px 0px;
+}
+.rating__name ul li{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+    color: #213353;
+    max-width: 170px;
+    width: 100%;
+    margin-left: 24px;
+}
+.rating__name ul li:first-child{
+    max-width: 364px;
+    width: 100%;
+    margin-left: 0;
+
+}
+.rating__cnt{
+    margin-top: 10px;
+}
+.rating__block{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+
+}
+.rating__block:nth-child(even){
+    background: #F8F8FC;
+}
+.rating__fl{
+    display: flex;
+    align-content: center;
+    max-width: 364px;
+    width: 100%;
+}
+.rating__logo{
+    display: flex;
+    max-width: 140px;
+    width: 100%;
+}
+.rating__fl p{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.rating__count{
+    display: flex;
+    align-items: center;
+    max-width: 170px;
+    width: 100%;
+    margin-left: 24px;
+}
+.rating__count span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #636C7B;
+}
+.rating__count img{
+    margin-right: 5px;
+}
+
+.serv-rev__cnt{
+    margin-top: 30px;
+    position: relative;
+}
+.serv-rev__main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+.serv-rev__main:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background: #E0E0E9;
+}
+.serv-rev__box{
+    max-width: 525px;
+    width: 100%;
+}
+.serv-rev__info{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.serv-rev__info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.serv-rev__name{
+    margin-left: 15px;
+}
+.serv-rev__name strong{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #213353;
+}
+.serv-rev__name p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+    color: #959EAD;
+}
+.serv-rev__text{
+    max-width: 525px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.serv-rev__block{
+    margin-bottom: 90px;
+}
+.serv-rev__text p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 30px;
+}
+.serv-rev__click{
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serv-rev__click .swiper-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: max-content;
+    margin: 0 30px;
+}
+
+.serv-button-prev, .serv-button-next {
+    position: relative;
+}
+.serv-button-prev{
+    left: auto;
+}
+.serv-button-next{
+    right: auto;
+}
+.often-searched{
+    background: #F7F8FC;
+    padding: 44px 0 60px;
+}
+
+.often-searched__wrap{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.often-searched__box{
+    margin-top: 35px;
+    width: 25%;
+}
+.often-searched__box strong{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #383A3E;
+
+}
+
+.often-searched__box ul{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.often-searched__box ul li{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #519FE7;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.often-searched__box ul li:before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #519FE7;
+}
+.submenu{
+    display: none;
+}
+
+.insur-asago__main{
+    margin: 90px 0;
+}
+
+.insur-asago__acc{
+    margin-top: 50px;
+}
+.insur-asago__block{
+    margin-top: 20px;
+    background: #F7F8FB;
+
+}
+.insur-asago__box{
+    position: relative;
+    padding: 40px 30px;
+    background: #F7F8FB;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.insur-asago__box:after{
+    content: "";
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    border-top: 2px solid #47518E;
+    border-right: 2px solid #47518E;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+    transition: 0.3s;
+}
+
+.insur-asago__box.open:after{
+    top: 48px;
+    transform: rotate(-45deg);
+}
+.insur-asago__box strong{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #213353;
+}
+.insur-asago__text{
+    padding: 0 30px 20px;
+}
+.insur-asago__text p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #64687A;
+}
+
+
+.event-insur__wrap{
+    margin: 38px -12px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event-insur__block{
+    width: 33.333333%;
+    padding: 12px;
+}
+.event-insur__box{
+    position: relative;
+    height: 100%;
+}
+.event-insur__fl{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #E0E0E9;
+}
+.event-insur__count{
+    width: 60px;
+    height: 60px;
+    background: #FF1C2D;
+    border-radius: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: -1px;
+}
+
+.event-insur__tit{
+    background: #F7F8FC;
+    border-radius: 20px;
+    min-height: 240px;
+}
+.event-insur__tit strong{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #213353;
+    display: block;
+    margin-left: 18px;
+}
+.event-insur__text{
+    padding: 32px 20px 20px;
+}
+.event-insur__text p{
+    line-height: 20px;
+    color: #636C7B;
+}
+.event-insur__icon{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.event-insur__icon img{
+    margin-right: 23px;
+}
+.event-insur__icon p{
+    color: #616F89;
+    line-height: 17px;
+}
+.event-insur__icon p a{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #519FE7;
+    transition: 0.3s;
+}
+.event-insur__icon p a:hover{
+    text-decoration-line: unset;
+}
+.event-insur__icon span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #616F89;
+}
+.event-insur__email a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #519FE7;
+    transition: 0.3s;
+}
+.event-insur__email a:hover{
+    text-decoration-line: unset;
+}
+@media (max-width: 1199px){
+    .compensation__name {
+        max-width: 390px;
+        width: 100%;
+    }
+    #mortgage .osago__vibor {
+        justify-content: flex-start;
+    }
+
+
+    .movable-property {
+        flex-direction: column;
+    }
+    .refur__planned{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .refur__planned .contact__check + .contact__check {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .insu__comp__name{
+        display: none;
+    }
+    .insu__company {
+        padding: 10px 20px 10px;
+    }
+    .filter__price span {
+        margin-right: 25px;
+        font-size: 16px;
+    }
+    .must__brick__text {
+        max-width: 490px;
+    }
+    .must__brick__text p + p {
+        margin-top: 15px;
+    }
+
+    .rating__tab {
+        overflow-x: scroll;
+        padding-bottom: 15px;
+    }
+    .rating__scr {
+        width: 1180px;
+    }
+    .serv-rev__text p {
+        margin-left: 20px;
+    }
+    .rating__name ul li {
+        margin-left: 8px;
+    }
+}
+@media (max-width: 1100px){
+    .osago__online {
+        margin: 50px 0 70px;
+    }
+    .osago__clearance {
+        margin-top: 30px;
+    }
+    .how-works__count {
+        margin-right: 10px;
+        padding: 12px;
+    }
+    .osago__vibor .how-works__info {
+        margin-bottom: 10px;
+    }
+    .mort-works__number {
+        padding-right: 10px;
+    }
+    .mort-works__number span {
+        font-size: 28px;
+    }
+    .autofill__liner {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .how-works__count strong {
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 11px;
+    }
+
+    .compensation__name {
+        max-width: 350px;
+    }
+    .need-advice {
+        margin-top: 60px;
+        padding: 30px 20px 30px 20px;
+    }
+    .need-advice__info {
+        margin-left: 0;
+        max-width: 590px;
+    }
+    .calc-cost {
+        margin: 70px 0;
+    }
+    .calc-cost__price strong {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .event-insur__icon img {
+        margin-right: 14px;
+    }
+    .osago__clearance {
+        margin-top: 20px;
+        padding: 7.5px 15px;
+    }
+    .osago__relative {
+        margin-top: 22px;
+        padding: 30px 20px;
+    }
+    .autofill__car {
+        margin-top: 30px;
+    }
+    .calc-cost__cnt {
+        margin-top: 30px;
+    }
+    .causes__cnts .causes__box {
+        padding: 30px 20px;
+    }
+    .insurance__comp_osago .swiper-button-prev {
+        left: 15px;
+    }
+    .insurance__comp_osago .swiper-button-next {
+        right: 15px;
+    }
+    .insurance__comp_osago {
+        margin: 0 auto 50px;
+    }
+    .compensation__box {
+        padding-left: 20px;
+    }
+    .compensation__name {
+        max-width: 240px;
+    }
+    .serv-rev__text {
+        max-width: 440px;
+        padding-left: 10px;
+    }
+    .event-insur__tit strong {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 991px){
+    .osago__name {
+        max-width: 561px;
+    }
+    .autofill__liner {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 550px;
+    }
+    .show__options .button {
+        margin-top: 20px;
+    }
+    .guarantees__flex {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .guarantees__info {
+        max-width: 240px;
+    }
+    .autofill__car {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .number__you {
+        margin-top: 20px;
+    }
+
+    .compensation__flex {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .compensation__box {
+        max-width: 600px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .compensation__name {
+        max-width: 315px;
+    }
+    .guarantees {
+        margin: 70px 0;
+    }
+
+    .must__brick {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .must__brick__name ul {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .must__brick__name {
+        margin-top: 20px;
+    }
+    .catalog-change-inputs {
+        flex-wrap: wrap;
+    }
+    .change-range-box {
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    .often-searched__box ul li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .often-searched__box strong {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .event-insur__block {
+        width: 50%;
+    }
+    .calc-cost__fl, .calc-cost__item {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .calc-cost__item{
+        flex-direction: column-reverse;
+    }
+    .calc-cost__price {
+        margin-left: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .calc-cost__info {
+        max-width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .calc-cost__cnt {
+        margin-top: 25px;
+    }
+    .calc__policy {
+        padding-left: 0;
+    }
+    .need-advice__info p {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .need-advice__info {
+        max-width: 508px;
+    }
+    .need-advice__info strong {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .calc__buy {
+        padding-left: 30px;
+        margin-top: 14px;
+    }
+    .need-advice {
+        margin-top: 50px;
+        padding: 25px 20px;
+        min-height: auto;
+    }
+    .often-searched__box {
+        margin-top: 30px;
+        width: 33%;
+    }
+    .insur-asago__main {
+        margin: 50px 0;
+    }
+    .insur-asago__box strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .insur-asago__text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .insur-asago__text {
+        padding: 10px;
+    }
+    .insur-asago__box {
+        padding: 10px 10px;
+    }
+    .how-works__count {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        max-width: 345px;
+    }
+    .osago__vibor {
+        flex-wrap: wrap;
+    }
+    .osago__relative {
+        margin-top: 5px;
+        padding: 20px 20px;
+    }
+    .osago__relative .contact__check {
+        margin-left: 0;
+    }
+    .autofill__car {
+        margin-top: 25px;
+    }
+    .calc-cost {
+        margin: 50px 0;
+    }
+    .calc-cost__item {
+        margin-top: 20px;
+    }
+    .calc-cost__price {
+        margin: 30px 0 0;
+    }
+    .need-advice:after{
+        display: none;
+    }
+    .serv-rev__box + .serv-rev__box{
+        display: none;
+    }
+    .serv-rev__main:before{
+        display: none;
+    }
+    .serv-rev__text {
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .serv-rev__box {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .serv-rev__info {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .serv-rev__block {
+        margin-bottom: 50px;
+    }
+    .serv-rev__click {
+        margin-top: 50px;
+    }
+    .often-searched__box ul {
+        margin-top: 20px;
+    }
+    .insur-asago__box:after {
+        top: 14px;
+        right: 20px;
+    }
+    .insur-asago__box.open:after {
+        top: 18px;
+    }
+}
+@media (max-width: 760px){
+    .osago__vibor .how-works__number span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .osago__vibor .how-works__info strong {
+        font-size: 24px;
+    }
+    .osago__clearance {
+        padding: 7.5px 20px 7.5px 10px;
+        position: relative;
+    }
+    .osago__close {
+        position: absolute;
+        right: 10px;
+    }
+    .osago__tit {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .osago__soc {
+        margin-top: 15px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .compensation__name {
+        max-width: 393px;
+    }
+
+    .guarantees {
+        margin: 50px 0;
+    }
+    .apartment-annual {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .apartment-cnt {
+        padding: 15px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .apartment-cnt a {
+        margin-top: 10px;
+    }
+
+    .refur__planned {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .refur__planned .contact__check + .contact__check {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .filter__price span {
+        margin-right: 15px;
+    }
+
+    .calc-cost {
+        margin: 50px 0;
+    }
+    .calc-cost__fl, .calc-cost__item {
+        margin-top: 30px;
+    }
+    .need-advice {
+        margin-top: 50px;
+        padding: 20px 20px 20px 20px;
+        flex-wrap: wrap;
+    }
+    .need-advice .btn{
+        margin-top: 15px;
+    }
+    .need-advice__info strong {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .often-searched__box {
+        width: 50%;
+    }
+    .often-searched__box ul {
+        margin-top: 5px;
+    }
+    .event-insur__wrap {
+        margin: 25px -8px 0;
+    }
+    .event-insur__block {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .osago-clear__cl {
+        position: absolute;
+        right: 11px;
+        top: 10px;
+    }
+    .mort-works__number {
+        width: 50px;
+        height: 50px;
+    }
+    .mort-works__number span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .how-works__count strong {
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 15px;
+    }
+
+    .filter__last-price strong {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .autofil__photo {
+        display: none;
+    }
+
+    .autofill__liner {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .calc-cost {
+        margin: 40px 0;
+    }
+    .osago__online {
+        margin: 50px 0 40px;
+    }
+    .need-advice .button {
+        padding: 15px 23px;
+        margin-top: 15px;
+    }
+    .causes__cnts .causes__box {
+        margin: 30px 0 0;
+    }
+    .insurance__comp_osago {
+        margin: 0 auto 20px;
+    }
+    .compensation__damage {
+        margin: 50px 0;
+    }
+    .compensation__name strong {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .insur-asago__box {
+        padding: 10px 40px 10px 10px;
+    }
+
+}
+@media (max-width: 570px){
+    .osago__clearance {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .osago__close {
+        top: 15px;
+    }
+    .osago__link {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .osago__name {
+        margin-top: 10px;
+    }
+    .osago__vibor .how-works__info strong {
+        font-size: 15px;
+    }
+    .osago__vibor .how-works__info {
+        margin-right: 0;
+    }
+
+    .osago__soc ul li {
+        margin-left: 8px;
+    }
+
+    .compensation__name strong {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .compensation__box {
+        padding: 15px;
+    }
+    .compensation__name {
+        max-width: 229px;
+    }
+
+    .osago__vibor .how-works__number {
+        width: 50px;
+        height: 50px;
+    }
+    .guarantees__info strong {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 12px;
+    }
+
+    .insured__apartment .jq-selectbox__select-text {
+        padding-left: 15px;
+    }
+    .insured__apartment .jq-selectbox li {
+        padding: 12px 15px;
+    }
+    .insured__apartment {
+        margin-right: 0;
+    }
+    .insured__apartment .jq-selectbox__select-text {
+        width: 86%;
+    }
+    .insured__apartment .jq-selectbox__select:after {
+        right: 18px;
+    }
+    .show__options .button {
+        max-width: 240px;
+        height: 50px;
+    }
+
+    .bread__pages ul li + li {
+        padding-left: 25px;
+    }
+    .bread__pages ul li {
+        margin-right: 10px;
+    }
+    .bread__pages ul {
+        padding: 12px 0;
+        flex-wrap: wrap;
+    }
+    .insured__apartment .jq-selectbox__select {
+        height: 55px;
+    }
+
+    .change-range-box {
+        margin-right: 0;
+    }
+
+    .insu__company {
+        padding: 10px 15px 10px;
+    }
+
+    .filter__price {
+        margin-left: 0;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .filter__last-price {
+        margin: 10px 0;
+    }
+
+    .must__brick__name {
+        flex-direction: column;
+    }
+    .osago__online {
+        margin: 30px 0 50px;
+    }
+
+    .insured__glav:after {
+        top: 17px;
+        right: 16px;
+    }
+    .insured__open .insured__glav:after {
+        top: 20px;
+    }
+    .insured__sear label input {
+        padding: 9px 15px;
+    }
+    .true__inp label:after{
+        right: 15px;
+    }
+    .false__inp label:after{
+        right: 15px;
+    }
+    .osago__vibor {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .calc-cost__info strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .calc-cost__info>p {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .calc__buy {
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .calc-cost__price strong {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .purcha__rec {
+        margin-top: 40px;
+    }
+    .purcha__car {
+        margin: 20px auto;
+    }
+    .need-advice>img{
+        display: none;
+    }
+    .need-advice__info {
+        max-width: 514px;
+        margin-left: 0;
+    }
+
+    .often-searched__box {
+        width: 100%;
+    }
+    .often-searched {
+        padding: 40px 0 40px;
+    }
+    .insur-asago__box {
+        padding: 10px 30px 10px 10px;
+    }
+    .insur-asago__box strong {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .insur-asago__text p {
+        font-size: 15px;
+    }
+
+    .event-insur__icon {
+        margin-top: 15px;
+    }
+    .event-insur__wrap {
+        margin: 15px 0 0;
+    }
+    .event-insur__block {
+        padding: 8px 0;
+        margin-top: 15px;
+    }
+    .osago__link a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .refur__planned .contact__check + .contact__check {
+        margin-top: 14px;
+    }
+
+    .insured__apartment {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        background: unset;
+        border: unset;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .insured__apartment .button-liners {
+        margin-top: 15px;
+    }
+
+    .insured__glav label input {
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #CADAF1;
+    }
+    .how-works__count {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .mort-works__number {
+        width: 42px;
+        height: 42px;
+    }
+    .mort-works__number span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .need-advice .button-liners {
+        margin-top: 10px;
+    }
+    .benefits__main {
+        padding: 30px 0 50px;
+    }
+
+    .serv-rev__block {
+        margin-bottom: 50px;
+    }
+    .often-searched__box {
+        margin-top: 25px;
+    }
+    .often-searched__box ul li {
+        margin-top: 10px;
+    }
+    .compensation__name {
+        padding: 20px 0;
+    }
+    .compensation__box {
+        padding: 15px;
+        min-height: auto;
+    }
+    .insurance__comp_osago .insurance__href {
+        border-left: unset;
+    }
+    .insurance__comp_osago .swiper-button-prev {
+        left: 0;
+    }
+    .insurance__comp_osago .swiper-button-next {
+        right: 0;
+    }
+}
+@media (max-width: 480px){
+    .services__cal__numb {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+   .osago__relative .services__cal__numb .button {
+        margin-left: 0;
+        margin-top: 10px;
+        max-width: 200px;
+        width: 100%;
+    }
+    .autofill__car {
+        align-items: flex-start;
+    }
+    .autofill__car p span {
+        margin-left: 0;
+    }
+    .osago__relative .services__calculate {
+        margin-top: 0;
+    }
+    .calc-cost__cnt span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .calc__buy:before {
+        top: 5px;
+    }
+    .compensation__main>p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .serv-rev__text p {
+        margin-left: 10px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .often-searched__wrap {
+        margin-top: 0;
+    }
+    .event-insur__text {
+        padding: 25px 15px 20px;
+    }
+    .serv-rev__click {
+        margin-top: 30px;
+    }
+    .compensation__box {
+        flex-direction: column;
+    }
+    .compensation__name {
+        max-width: 100%;
+    }
+}
+@media (max-width: 370px){
+
+    .filter__price span {
+        margin-right: 7px;
+    }
+
+}
